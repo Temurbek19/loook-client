@@ -1,0 +1,72 @@
+.login-page {
+  display: flex;
+  padding: 24px;
+  box-sizing: border-box;
+  .header {
+    display: flex;
+    align-items: center;
+    .logo {
+      width: 250px;
+      height: 100px;
+      border-radius: 5px;
+      &-img {
+        border-radius: 5px;
+        width: 250px;
+        height: 100px;
+        object-fit: cover;
+      }
+    }
+    .page_name {
+      margin-left: 250px;
+    }
+  }
+  .block {
+    position: absolute;
+    width: 400px;
+    padding: 24px;
+    top: 30%;
+    left: 35%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #d20e12;
+    box-sizing: border-box;
+    border-radius: 10px;
+    input {
+      display: block;
+      font-size: 16px;
+      outline: none;
+      border-radius: 8px;
+      padding: 10px 20px;
+      font-weight: bold;
+      margin: 20px 0;
+      border: none;
+    }
+    button {
+      display: block;
+      width: 100%;
+      font-size: 24px;
+      margin-top: 20px;
+      padding: 10px 30px;
+      cursor: pointer;
+      color: #fff;
+      font-weight: bold;
+      background: #fdc607;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      &:hover {
+        box-shadow: 0 0 5px 3px #cea40b;
+      }
+    }
+    .registrasiya {
+      font-size: 18px;
+      color: #fff;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+    &.shake {
+      box-shadow: 0 0 5px 5px #d20e12;
+    }
+  }
+}
